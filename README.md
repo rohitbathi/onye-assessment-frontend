@@ -1,6 +1,14 @@
 # Onye Assessment Frontend
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/create-next-app).
+
+## Project Structure
+
+- `src/app` – Next.js application files (`page.tsx`, layout, global styles)
+- `src/components` – React components (atoms, molecules, organisms)
+- `src/lib/api.ts` – helper for calling the backend API
+- `public` – static assets
+
+This project uses **Tailwind CSS** for styling and **Chart.js** for charts. 
 
 ## Getting Started
 
@@ -40,9 +48,4 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to see the a
 
 ---
 
-## Editing the Project
-
-Start editing the app by modifying `src/app/page.tsx`. The app auto-updates as you make changes.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to load [Geist](https://vercel.com/font), a clean font family by Vercel.
 
