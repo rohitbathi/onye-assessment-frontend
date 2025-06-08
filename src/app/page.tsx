@@ -22,7 +22,7 @@ export default function HomePage() {
 
   return (
     <main className="min-h-screen bg-black text-white flex flex-col items-center p-8">
-      <h1 className="text-2xl font-bold mb-4">FHIR Patient Query</h1>
+      <h1 className="text-2xl font-bold mb-4">Onye Patient FHIR Query</h1>
       <div className="w-full max-w-md">
         <QueryForm onResult={setData!} />
       </div>

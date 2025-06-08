@@ -12,7 +12,7 @@ export function PatientTable({ patients }: Props) {
   return (
     <table className="mt-4 w-full table-auto border-collapse">
       <thead>
-        <tr className="bg-gray-100">
+        <tr className="bg-gray-900">
           {['Name','Age','Gender','Condition'].map(h => (
             <th key={h} className="border px-2 py-1 text-left">{h}</th>
           ))}
@@ -20,7 +20,8 @@ export function PatientTable({ patients }: Props) {
       </thead>
       <tbody>
         {patients.map((p,i) => (
-          <tr key={i} className={i%2 ? 'bg-white':'bg-gray-50'}>
+        //   <tr key={i} className={i%2 ? 'bg-white':'bg-gray-50'}>
+          <tr key={i} className="bg-black">
             <td className="border px-2 py-1">{p.name}</td>
             <td className="border px-2 py-1">{p.age}</td>
             <td className="border px-2 py-1">{p.gender}</td>

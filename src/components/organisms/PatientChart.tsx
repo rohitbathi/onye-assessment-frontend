@@ -24,11 +24,17 @@ export function PatientChart({ patients }: Props) {
       {
         data: labels.map(l => counts[l]),
         backgroundColor: [
-          '#10B981',
-          '#3B82F6',
-          '#FBBF24',
-          '#F87171',
-          '#8B5CF6',
+          '#5F3F8C', // deep purple
+          '#04ADBF', // teal
+          '#F2B705', // yellow
+          '#F28705', // orange
+          '#F27244', // coral
+          '#4CAF50', // green
+          '#E53935', // red
+          '#2196F3', // blue
+          '#EC407A', // pink
+          '#CDDC39', // lime
+          '#3F51B5', // indigo
         ],
       },
     ],
