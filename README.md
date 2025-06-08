@@ -1,5 +1,6 @@
 # Onye Assessment Frontend
 
+![FrameworkScreenshot](/screenshots/img3.png)
 
 ## Project Structure
 
